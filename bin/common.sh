@@ -1,3 +1,6 @@
+echo "updating npm registry"
+npm config set registry "http://registry.npmjs.org"
+
 error() {
   echo " !     $*" >&2
   exit 1
